@@ -1,2 +1,2 @@
 # RevoGroceryList
-A list intended for households grocery list which could be edited and easily sorted.
+A list intended for household's grocery list which could be edited and easily sorted or searched.
