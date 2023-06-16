@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import '/src/assets/scss/variable';
+
+.modal-backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+  }
+
+.modal-card {
+    z-index: 200;
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+
+    width: fit-content;
+    height: fit-content;
+
+    background-color: $clr-light;
+    padding: 2rem;
+}
